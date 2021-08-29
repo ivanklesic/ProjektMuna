@@ -50,7 +50,6 @@ class MainController extends AbstractController
 
     public function statAction(): array
     {
-        header('Content-type:application/json;charset=utf-8');
         return $this->historyItemRepository->getList();
     }
 }
