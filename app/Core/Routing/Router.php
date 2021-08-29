@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types = 1);
 
 namespace App\Core\Routing;
 
@@ -40,7 +40,7 @@ class Router implements RouterInterface
         throw new RouterException("{$this->request->serverProtocol} 405 Method Not Allowed");
     }
 
-    public function getRequest()
+    public function getRequest(): RequestInterface
     {
         return $this->request;
     }

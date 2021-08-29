@@ -17,5 +17,4 @@ class Application
     {
         return $this->router->matchRoute($this->router->getRequest()->pathInfo ?? '/');
     }
-
 }
