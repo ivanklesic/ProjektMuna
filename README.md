@@ -1,6 +1,6 @@
 # Projekt Muna
 
-##Prerequisites:
+## Prerequisites:
 - Apache web server
 - Postgre DB instance
 - PHP 7.4
